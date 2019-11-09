@@ -6,5 +6,6 @@ interface Problem<S, A> {
   List<A> actions(S state);
   S result(S state, A action);
   boolean isGoal(S state);
-  double cost(S state, A action);        
+  double cost(S state, A action);
+
 }
